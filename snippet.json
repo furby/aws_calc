@@ -1,0 +1,414 @@
+[
+  {
+    "product": {
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "enhancedNetworkingSupported": "No",
+        "intelTurboAvailable": "Yes",
+        "memory": "16 GiB",
+        "vcpu": "4",
+        "capacitystatus": "Used",
+        "locationType": "AWS Region",
+        "storage": "EBS only",
+        "instanceFamily": "General purpose",
+        "operatingSystem": "Windows",
+        "intelAvx2Available": "No",
+        "physicalProcessor": "Intel Xeon Family",
+        "clockSpeed": "Up to 3.3 GHz",
+        "ecu": "Variable",
+        "networkPerformance": "Moderate",
+        "servicename": "Amazon Elastic Compute Cloud",
+        "instanceType": "t2.xlarge",
+        "tenancy": "Shared",
+        "usagetype": "EUW2-BoxUsage:t2.xlarge",
+        "normalizationSizeFactor": "8",
+        "intelAvxAvailable": "Yes",
+        "processorFeatures": "Intel AVX; Intel Turbo",
+        "servicecode": "AmazonEC2",
+        "licenseModel": "No License required",
+        "currentGeneration": "Yes",
+        "preInstalledSw": "NA",
+        "location": "EU (London)",
+        "processorArchitecture": "64-bit",
+        "operation": "RunInstances:0002"
+      },
+      "sku": "22VPGB87R2NZ8A4A"
+    },
+    "serviceCode": "AmazonEC2",
+    "terms": {
+      "OnDemand": {
+        "22VPGB87R2NZ8A4A.JRTCKXETXF": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.JRTCKXETXF.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "$0.2522 per On Demand Windows t2.xlarge Instance Hour",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.JRTCKXETXF.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.2522000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2020-12-01T00:00:00Z",
+          "offerTermCode": "JRTCKXETXF",
+          "termAttributes": {}
+        }
+      },
+      "Reserved": {
+        "22VPGB87R2NZ8A4A.4NA7Y494T4": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.4NA7Y494T4.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.4NA7Y494T4.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.1864000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-12-31T23:59:59Z",
+          "offerTermCode": "4NA7Y494T4",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "No Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.38NPMPTW36": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.38NPMPTW36.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.38NPMPTW36.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "1843"
+              }
+            },
+            "22VPGB87R2NZ8A4A.38NPMPTW36.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.38NPMPTW36.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0701000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "38NPMPTW36",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "Partial Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.MZU6U2429S": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.MZU6U2429S.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.MZU6U2429S.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              }
+            },
+            "22VPGB87R2NZ8A4A.MZU6U2429S.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.MZU6U2429S.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "4020"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "MZU6U2429S",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "All Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.BPH4J8HBKS": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.BPH4J8HBKS.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.BPH4J8HBKS.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.1482000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "BPH4J8HBKS",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "No Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.7NE97W5U4E": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.7NE97W5U4E.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.7NE97W5U4E.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.2106000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-10-31T23:59:59Z",
+          "offerTermCode": "7NE97W5U4E",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "No Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.CUZHX8X6JH": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.CUZHX8X6JH.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.CUZHX8X6JH.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "887"
+              }
+            },
+            "22VPGB87R2NZ8A4A.CUZHX8X6JH.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.CUZHX8X6JH.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.1013000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-10-31T23:59:59Z",
+          "offerTermCode": "CUZHX8X6JH",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "Partial Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.6QCMYABX3D": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.6QCMYABX3D.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.6QCMYABX3D.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "1565"
+              }
+            },
+            "22VPGB87R2NZ8A4A.6QCMYABX3D.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.6QCMYABX3D.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "6QCMYABX3D",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "All Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.VJWZNREJX2": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.VJWZNREJX2.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.VJWZNREJX2.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              }
+            },
+            "22VPGB87R2NZ8A4A.VJWZNREJX2.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.VJWZNREJX2.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "1746"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-10-31T23:59:59Z",
+          "offerTermCode": "VJWZNREJX2",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "All Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.HU7G6KETJZ": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.HU7G6KETJZ.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.HU7G6KETJZ.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "795"
+              }
+            },
+            "22VPGB87R2NZ8A4A.HU7G6KETJZ.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.HU7G6KETJZ.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0907000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-12-31T23:59:59Z",
+          "offerTermCode": "HU7G6KETJZ",
+          "termAttributes": {
+            "LeaseContractLength": "1yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "Partial Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.R5XV2EPZQZ": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.R5XV2EPZQZ.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.R5XV2EPZQZ.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0776000000"
+              }
+            },
+            "22VPGB87R2NZ8A4A.R5XV2EPZQZ.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.R5XV2EPZQZ.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "2040"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "R5XV2EPZQZ",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "Partial Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.NQ3QZPMQV9": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.NQ3QZPMQV9.2TG2D8R56U": {
+              "unit": "Quantity",
+              "description": "Upfront Fee",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.NQ3QZPMQV9.2TG2D8R56U",
+              "pricePerUnit": {
+                "USD": "3530"
+              }
+            },
+            "22VPGB87R2NZ8A4A.NQ3QZPMQV9.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.NQ3QZPMQV9.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.0000000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "NQ3QZPMQV9",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "standard",
+            "PurchaseOption": "All Upfront"
+          }
+        },
+        "22VPGB87R2NZ8A4A.Z2E3P23VKM": {
+          "priceDimensions": {
+            "22VPGB87R2NZ8A4A.Z2E3P23VKM.6YS6EN2CT7": {
+              "unit": "Hrs",
+              "endRange": "Inf",
+              "description": "Windows (Amazon VPC), t2.xlarge reserved instance applied",
+              "appliesTo": [],
+              "rateCode": "22VPGB87R2NZ8A4A.Z2E3P23VKM.6YS6EN2CT7",
+              "beginRange": "0",
+              "pricePerUnit": {
+                "USD": "0.1644000000"
+              }
+            }
+          },
+          "sku": "22VPGB87R2NZ8A4A",
+          "effectiveDate": "2017-08-31T23:59:59Z",
+          "offerTermCode": "Z2E3P23VKM",
+          "termAttributes": {
+            "LeaseContractLength": "3yr",
+            "OfferingClass": "convertible",
+            "PurchaseOption": "No Upfront"
+          }
+        }
+      }
+    },
+    "version": "20201229065513",
+    "publicationDate": "2020-12-29T06:55:13Z"
+  }
+]
